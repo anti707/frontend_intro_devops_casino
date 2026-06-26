@@ -52,6 +52,6 @@ jobs:
 
       - name: Conectar al clúster de AWS EKS y Desplegar Manifiestos
         run: |
-          aws eks update-kubeconfig --region us-east-1 --name cluster-casino-lab
+          aws eks update-kubeconfig --region us-east-1 --name casino-vidal-evaluacion3
           
           kubectl apply -f k8s/
