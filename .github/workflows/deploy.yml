@@ -25,9 +25,9 @@ jobs:
         uses: aws-actions/amazon-ecr-login@v2
 
       - name: Preparar kubectl
-        uses: azure/setup-kubectl@v3
+        uses: azure/setup-kubectl@v4
         with:
-          version: '1.30.0'
+          version: 'latest'
 
       - name: Compilar y subir imagen a AWS ECR
         run: |
