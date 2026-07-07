@@ -11,5 +11,5 @@ RUN npm run build -- --configuration production
 FROM nginx:alpine as runtime
 COPY --from=build /usr/src/app/dist/casino-frontend /usr/share/nginx/html/
 
-EXPOSE 80
+EXPOSE 8080
 CMD ["nginx", "-g", "daemon off;"]
