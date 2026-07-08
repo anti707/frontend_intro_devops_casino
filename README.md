@@ -1,7 +1,5 @@
 # casino-frontend
 
-
-holiiii
 SPA Angular 17 (standalone components) del **Casino Online** —
 Experiencia 2 de la asignatura **Introducción a Herramientas DevOps (ISY1101)**.
 
