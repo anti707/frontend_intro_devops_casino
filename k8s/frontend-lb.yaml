@@ -5,11 +5,11 @@ metadata:
   labels:
     app: casino-frontend
 spec:
-  type: LoadBalancer       
+  type: ClusterIP
   selector:
-    app: casino-frontend   
+    app: casino-frontend
   ports:
     - name: http
       protocol: TCP
-      port: 80             
-      targetPort: 80       
+      port: 80
+      targetPort: 80
